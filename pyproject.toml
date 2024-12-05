@@ -4,8 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "openrank-onchain-score"
-version = "0.0.1"
-description = "A tool to manage OpenRank scores onchain"
+dynamic = ["version", "description"]
 readme = "README.md"
 authors = [
     { name = "Eugene Kim", email = "ek@karma3labs.com" },
