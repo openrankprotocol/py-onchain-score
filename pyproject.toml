@@ -15,9 +15,12 @@ maintainers = [
 classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "typer~=0.15",
+    "web3~=7.6",
+    "structlog~=24.4",
+    "rich~=13.9",
 ]
 
 [project.urls]
@@ -26,7 +29,7 @@ Repository = "https://github.com/openrankprotocol/py-onchain-score.git"
 Issues = "https://github.com/openrankprotocol/py-onchain-score/issues"
 
 [project.scripts]
-openrank-onchain-score = "openrank.onchainscore.cli:entrypoint"
+openrank-onchain-score = "openrank.onchainscore.cli:main"
 
 [tool.flit.module]
 name = "openrank.onchainscore"

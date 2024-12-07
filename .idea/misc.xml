@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.9 (openrank-onchain-score)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (openrank-onchain-score)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (openrank-onchain-score)" project-jdk-type="Python SDK" />
   <component name="ProjectUserFactors">
     <factor id="completionFinishedType">
       <dailyData date="14-06-2024">
